@@ -1,0 +1,22 @@
+# Downloaded code-server binary/release
+code-server/
+code-server.backup.*/
+
+# Portable runtime data
+data/
+projects/
+
+# Local config contains password
+config/config.yaml
+
+# Download/temp files
+*.tar.gz
+*.zip
+*.tmp
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
