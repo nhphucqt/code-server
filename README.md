@@ -17,6 +17,7 @@ code-server/
 ├── config/
 │   └── config.yaml       # generated automatically; ignored by Git
 ├── data/                 # runtime data; ignored by Git
+|   ├── home/
 │   ├── user-data/
 │   ├── extensions/
 │   ├── xdg-config/
