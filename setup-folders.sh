@@ -43,11 +43,10 @@ if [ ! -f "$CONFIG_FILE" ]; then
 # For Docker, bind to 0.0.0.0 so Docker port publishing can reach it.
 # Example:
 # docker run -p 127.0.0.1:8080:8080 ...
-bind-addr: 0.0.0.0:8080
+bind-addr: 127.0.0.1:8080
 auth: password
 password: $PASSWORD
 cert: false
-disable-telemetry: true
 EOF_CONFIG
 
   chmod 600 "$CONFIG_FILE"
